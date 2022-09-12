@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>47PROJECTS LTD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__site-nav">
+          <nav class="page-header__main-nav">
+            <a href="./index.html" class="logo">
+              <img src="./images/logo.webp" class="logo__image" width="100" alt="logo" />
+              PROJECTS
+            </a>
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./index.html" class="nav-list__link nav-list__link--current">About us</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./development.html" class="nav-list__link">Development</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./web-design.html" class="nav-list__link">Web Design</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./portfolio.html" class="nav-list__link">Portfolio</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contact.html" class="nav-list__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact-list">
+            <li class="contact-list__item">
+              <a href="mailto:info@47projects.com" class="contact-list__link">
+                <svg class="contact-list__link-icon">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@47projects.com
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <a href="tel:+375440004747" class="contact-list__link">
+                <svg class="contact-list__link-icon">
+                  <use href="./images/sprite.svg#icon-smart"></use>
+                </svg>
+                +375 (44) 000-47-47</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">We create the future</h1>
+        <button data-modal-open type="button" class="button__primary">Order service</button>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title section__title--vh">Our capabilities</h2>
+          <ul class="section__list">
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="section__subtitle">Attention to detail</h3>
+              <p class="section__subtitle-desc">
+                Ideological considerations, as well as the beginning of daily work on the formation
+                of a position.
+              </p>
+            </li>
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="section__subtitle">Punctuality</h3>
+              <p class="section__subtitle-desc">
+                The task of the organization, in particular the framework and place of training of
+                personnel entails.
+              </p>
+            </li>
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="section__subtitle">Planning</h3>
+              <p class="section__subtitle-desc">
+                Similarly, consultation with a broad asset is largely conditional.
+              </p>
+            </li>
+            <li class="section__item">
+              <div class="section__icon-bg">
+                <svg class="section__icon">
+                  <use href="./images/sprite.svg#icon-astro"></use>
+                </svg>
+              </div>
+              <h3 class="section__subtitle">Modern technologies</h3>
+              <p class="section__subtitle-desc">
+                The significance of these problems is so obvious that the implementation of planned
+                targets.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--border">
+        <div class="container">
+          <h2 class="section__title">What are we doing</h2>
+          <ul class="section__do-list">
+            <li class="section__do-item">
+              <a href="./development.html" class="section__do-link">
+                <img src="./images/development.png" width="350" alt="develop" />
+                <div class="section__do-thumb">
+                  <p class="section__do-text">Development</p>
+                </div>
+              </a>
+            </li>
+            <li class="section__do-item">
+              <a href="./web-design.html" class="section__do-link">
+                <img src="./images/web-design.png" width="350" alt="web design" />
+                <div class="section__do-thumb">
+                  <p class="section__do-text">Web Design</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--border">
+        <div class="container">
+          <h2 class="section__title">Our team</h2>
+          <ul class="section__team-list">
+            <li class="section__person">
+              <img
+                src="./images/man0.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">John Doe</h3>
+              <p class="section__person-position">Product Designer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link">
+                    <svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-link_g"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-fb_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-insta_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twit_g"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="section__person">
+              <img
+                src="./images/man1.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">James Doe</h3>
+              <p class="section__person-position">Frontend Developer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-link_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-fb_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-insta_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twit_g"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="section__person">
+              <img
+                src="./images/man2.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">Judy Doe</h3>
+              <p class="section__person-position">Backend Developer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-link_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-fb_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-insta_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twit_g"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="section__person">
+              <img
+                src="./images/man3.png"
+                class="section__person-image"
+                width="250"
+                alt="human's figure"
+              />
+              <h3 class="section__person-name">Robert Doe</h3>
+              <p class="section__person-position">UI Designer</p>
+              <ul class="social-list__group">
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-link_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Facebook" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-fb_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Instagram" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-insta_g"></use></svg
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="" aria-label="Link on Twitter" class="social-list__link"
+                    ><svg class="social-list__icon">
+                      <use href="./images/sprite.svg#icon-twit_g"></use></svg
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--border">
+        <div class="container">
+          <h2 class="section__title">Our clients</h2>
+          <ul class="clients-list">
+            <li class="clients-list__logo">
+              <a href="https://www.apple.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-apple"></use></svg
+              ></a>
+            </li>
+            <li class="clients-list__logo">
+              <a href="https://www.microsoft.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-microsoft"></use></svg
+              ></a>
+            </li>
+            <li class="clients-list__logo">
+              <a href="https://www.samsung.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-samsung"></use></svg
+              ></a>
+            </li>
+            <li class="clients-list__logo">
+              <a href="https://www.shell.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-shell"></use></svg
+              ></a>
+            </li>
+            <li class="clients-list__logo">
+              <a href="https://www.walmart.com/" class="clients-list__link"
+                ><svg class="clients-list__icon">
+                  <use href="./images/sprite.svg#icon-walmart"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--bgc">
+        <div class="container">
+          <h2 class="section__title">Contact us</h2>
+          <div class="content">
+            <form class="contact-form">
+              <label for="tel" class="contact-form__label">Contact us to find out more</label>
+              <input
+                type="tel"
+                class="contact-form__input"
+                name="tel"
+                id="tel"
+                placeholder="contact phone number"
+              />
+              <button type="submit" class="button__primary">
+                Submit
+                <svg class="contact-form__icon">
+                  <use href="./images/forms.svg#icon-send-w"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="page-footer__nav">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo.webp" class="logo__image" width="100" alt="logo" />
+            PROJECTS
+          </a>
+          <address class="address">
+            <p class="address__text">
+              Nezavisimosti Avenue 47 <br />
+              floor 4, office 7 <br />
+              Minsk <br />
+            </p>
+          </address>
+          <div class="contact-list contact-list--direction">
+            <div class="contact-list__mail">
+              <a
+                href="mailto:info@47projects.com"
+                class="contact-list__link contact-list__link--padding"
+              >
+                <svg class="contact-list__link-icon">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@47projects.com</a
+              >
+            </div>
+            <div class="contact-list__tel">
+              <a href="tel:+375440004747" class="contact-list__link contact-list__link--padding">
+                <svg class="contact-list__link-icon">
+                  <use href="./images/sprite.svg#icon-smart"></use>
+                </svg>
+                +375 (44) 000-47-47</a
+              >
+            </div>
+          </div>
+          <div class="social-list">
+            <p class="social-list__appeal"><b>JOIN US!</b></p>
+            <ul class="social-list__group">
+              <li class="social-list__item">
+                <a href="" aria-label="Link on LinkedIn" class="social-list__link"
+                  ><svg class="social-list__icon">
+                    <use href="./images/sprite.svg#icon-link_g"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a href="" aria-label="Link on Facebook" class="social-list__link"
+                  ><svg class="social-list__icon">
+                    <use href="./images/sprite.svg#icon-fb_g"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a href="" aria-label="Link on Instagram" class="social-list__link"
+                  ><svg class="social-list__icon">
+                    <use href="./images/sprite.svg#icon-insta_g"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a href="" aria-label="Link on Twitter" class="social-list__link"
+                  ><svg class="social-list__icon">
+                    <use href="./images/sprite.svg#icon-twit_g"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">
+            <sup>&copy;</sup>47PROJECTS. 2022. All rights reserved. Almost:)
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop backdrop--is-hidden" data-modal>
+      <div class="modal">
+        <h2 class="modal__text">Leave your contact details and we will contact you</h2>
+        <form class="modal__form" autocomplete="on">
+          <label class="modal__form-field">
+            <svg class="modal__form-icon">
+              <use href="./images/forms.svg#icon-person-b"></use>
+            </svg>
+            <input
+              type="text"
+              class="modal__form-input"
+              name="name"
+              placeholder=" "
+              required
+              minlength="3"
+            />
+            <span class="modal__form-label">Name</span>
+          </label>
+          <label class="modal__form-field">
+            <svg class="modal__form-icon">
+              <use href="./images/forms.svg#icon-phone-b"></use>
+            </svg>
+            <input type="tel" class="modal__form-input" name="tel" placeholder=" " required />
+            <span class="modal__form-label">Phone number</span>
+          </label>
+          <label class="modal__form-field">
+            <svg class="modal__form-icon">
+              <use href="./images/forms.svg#icon-email-b"></use>
+            </svg>
+            <input type="email" class="modal__form-input" name="mail" placeholder=" " required />
+            <span class="modal__form-label">Mail</span>
+          </label>
+          <label class="modal__form-field">
+            <textarea
+              name="comment"
+              class="modal__form-input-comment"
+              cols="10"
+              rows="10"
+              placeholder="enter yours message"
+              required
+              minlength="10"
+            ></textarea>
+          </label>
+          <label class="modal__form-checkbox">
+            <input
+              type="checkbox"
+              class="modal__form-checkbox-input"
+              name="agreement"
+              value="agreement"
+              id="agreement"
+            />
+            <span class="modal__form-checkbox-icon"></span>
+            <span class="modal__form-checkbox-name"
+              >I agree to the newsletter and
+              <a href="" class="modal__form-checkbox-link"> accept the terms of the contract</a>
+            </span>
+          </label>
+          <button type="submit" class="modal__button-submit">Submit</button>
+          <button data-modal-close type="button" class="modal__button-closed">
+            <svg class="modal__button-closed-icon">
+              <use href="./images/forms.svg#icon-closed-b"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
