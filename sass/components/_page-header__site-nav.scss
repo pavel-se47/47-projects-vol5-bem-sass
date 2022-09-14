@@ -1,0 +1,5 @@
+.page-header__site-nav {
+  @extend %flex-center;
+  justify-content: space-between;
+  @extend %container;
+}

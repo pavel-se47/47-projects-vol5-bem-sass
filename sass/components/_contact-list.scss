@@ -1,0 +1,41 @@
+.contact-list {
+  display: flex;
+  @extend %list;
+
+  &__item {
+    @extend %flex-center;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__link {
+    @extend %flex-center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: $accent-color;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 250ms $timing;
+
+    &-icon {
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      fill: $accent-color;
+      transition: fill 250ms $timing;
+    }
+    &:hover,
+    &:focus {
+      color: $prim-color-text;
+    }
+
+    &:hover &-icon,
+    &:focus &-icon {
+      fill: $prim-color-text;
+    }
+  }
+}

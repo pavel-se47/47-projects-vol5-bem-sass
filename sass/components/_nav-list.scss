@@ -1,0 +1,45 @@
+.nav-list {
+  display: flex;
+  @extend %list;
+  margin-left: 80px;
+
+  &__link:hover,
+  &__link:focus {
+    color: $prim-color-text;
+  }
+
+  &__item:not(:first-child) {
+    margin-left: 40px;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: $accent-color;
+    text-decoration: none;
+  }
+
+  &__link::after {
+    @extend %current;
+    transform: scaleX(0);
+    transition: transform 250ms $timing;
+  }
+
+  &__link:focus::after,
+  &__link:hover::after {
+    transform: scaleX(1);
+    transition: transform 250ms $timing;
+  }
+
+  &__link--current {
+    color: $prim-color-text;
+  }
+
+  &__link--current:after {
+    @extend %current;
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
