@@ -1,0 +1,56 @@
+/* button-primary */
+
+.button__primary {
+  display: inline-flex;
+  justify-content: center;
+  padding: 14px 30px;
+  min-width: 200px;
+
+  background-color: $accent-color;
+  color: $sec-color-text;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid transparent;
+
+  transition: background-color 250ms $timing;
+
+  &:hover,
+  &:focus {
+    background-color: $sec-color-bg;
+    border: 2px solid $accent-color;
+  }
+}
+
+/* button-error-404 */
+
+.error__go-home {
+  color: $sec-color-text;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* button-secondary */
+
+.button__secondary {
+  display: inline-flex;
+  justify-content: center;
+  padding: 14px 30px;
+  min-width: 200px;
+
+  background-color: $sec-color-bg;
+  color: $sec-color-text;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid transparent;
+
+  transition: background-color 250ms $timing;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $sec-color-text;
+    border: 2px solid $sec-color-bg;
+  }
+}

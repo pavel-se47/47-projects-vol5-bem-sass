@@ -1,0 +1,21 @@
+.hero {
+  @extend %flex-center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1980px;
+  height: 460px;
+  background-image: linear-gradient(to left, rgba(117, 117, 117, 1), rgba(117, 117, 117, 0.3)),
+    url(../images/hero1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: $sec-color-bg;
+  color: $sec-color-text;
+  font-size: 50px;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}

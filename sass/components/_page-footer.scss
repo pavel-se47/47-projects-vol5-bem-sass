@@ -1,0 +1,38 @@
+.page-footer {
+  padding-top: 30px;
+
+  &__nav {
+    @extend %flex-center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+}
+.address {
+  text-align: center;
+  color: $th-color-text;
+  font-style: normal;
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+.contact-list--direction {
+  flex-direction: column;
+}
+.contact-list__link--padding {
+  padding: 0;
+  padding-bottom: 10px;
+}
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: $th-color-text;
+  text-align: center;
+  border-top: 1px solid $th-color-text;
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

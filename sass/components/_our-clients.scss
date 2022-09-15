@@ -1,0 +1,19 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  @extend %list;
+
+  &__icon {
+    width: 150px;
+    height: 150px;
+    fill: $prim-color-text;
+
+    transition: fill 250ms $timing;
+  }
+  &__link:hover .clients-list__icon,
+  &__link:focus .clients-list__icon {
+    fill: $accent-color;
+  }
+}

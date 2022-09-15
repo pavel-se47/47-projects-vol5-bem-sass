@@ -1,0 +1,47 @@
+.section--bgc {
+  background-color: $sec-color-bg;
+  color: $sec-color-text;
+}
+.contact-us {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.contact-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__icon {
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
+
+  &__label {
+    font-size: 28px;
+  }
+  &__input {
+    padding: 14px;
+
+    background-color: $sec-color-bg;
+    font-size: 28px;
+    border: 2px solid $prim-color-bg;
+    border-radius: 6px;
+
+    transition: border-color 250ms $timing;
+
+    &:hover,
+    &:focus {
+      border-color: $accent-color;
+    }
+    &::placeholder {
+      color: $sec-color-text;
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+    }
+  }
+}
